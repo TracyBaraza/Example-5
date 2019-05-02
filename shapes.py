@@ -1,20 +1,20 @@
-
 class Circle:
-    def __init__(self,radius):
-        self.radius = radius
-        
-        
+
+
+    def __init__(self,r):
+        self.r = r
 
 
 
     def area(self):
-        
-       # A = 3.143*(self.radius**2)
+        r = self.r
 
-       return 3.14*self.radius**2
+        A = 3.14*r*r
+
+        return A
 
     def circumference(self):
-        radius = self.radius
+        r = self.r
         C = 2*3.14*r
 
         return C
